@@ -1,0 +1,90 @@
+.event {
+  max-width: 1100px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom right, #ffffff, #fef9f9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.eheader h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.red {
+  color: #ff6f61;
+}
+
+.blue {
+  color: #4a90e2;
+}
+
+.btn {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff3c2f;
+}
+
+.eform {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #4a90e2;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+input{
+    border:none;
+}
+.input-field {
+  position: relative; 
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}

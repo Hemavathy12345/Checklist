@@ -1,0 +1,91 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20%;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0px 0px 10px rgba(209, 201, 201, 0.5);
+}
+.heading {
+     text-align: center;
+     color: #00508d;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+     margin-bottom:70px ;
+}
+h1,h3{
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #5fe4ff, #a07bfe);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(to right, #a07bfe, #5fe4ff);
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover,h3:hover{
+    color: #7cc8c8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 350px;
+    padding-bottom: 50px;
+}
+.box1,.box2,.box3{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:50px;
+    margin-left:50px;
+    padding: 50px;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.box1:hover,.box2:hover,.box3:hover{
+    box-shadow: 0px 0px 20px rgba(209, 201, 201, 0.5);
+    opacity: 0.8;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+p{
+    color: gray;
+    padding-bottom: 30px;
+}
+.ready{
+    width: 100%;
+    background-color: #e6e9ec;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.ready h4{
+    padding-bottom: 20px;
+}
