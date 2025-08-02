@@ -12,7 +12,6 @@ const Login = () => {
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
-    // Check if user is already logged in
     useEffect(() => {
         const user = localStorage.getItem('user');
         if (user) {
@@ -32,7 +31,6 @@ const Login = () => {
         setError('');
         setLoading(true);
 
-        // Validation
         if (!formData.email || !formData.password) {
             setError('Email and password are required');
             setLoading(false);
@@ -57,7 +55,6 @@ const Login = () => {
                 throw new Error(data.error || 'Login failed');
             }
 
-            // Login successful - store user data in localStorage or session
             localStorage.setItem('user', JSON.stringify(data.user));
             router.push('/');
         } catch (error) {
@@ -99,7 +96,7 @@ const Login = () => {
                     {loading ? 'Logging in...' : 'Login'}
                 </button>
                 <p className="signup-link">
-                    Don't have an account? <span onClick={handleSignup}>Sign up here</span>
+                    Don&apos;t have an account? <span onClick={handleSignup}>Sign up here</span>
                 </p>
             </div>
         </div>
